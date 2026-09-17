@@ -21,7 +21,7 @@ class Solution {
             int u = it.get(0);
             int v = it.get(1);
             int w = it.get(2);
-            if(dist[u] != 1e8 && dist[u] + w < dist[v]){
+            if(dist[u] != Integer.MAX_VALUE && dist[u] + w < dist[v]){
                 int[] temp = new int[1];
                 temp[0] = -1;
                 return temp;
