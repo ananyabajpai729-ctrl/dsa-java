@@ -32,6 +32,7 @@ This repository contains my solutions, detailed explanations, and learnings as I
 | [`greedy-algorithms`](./greedy-algorithms) | Greedy Problems covering basic, medium and some advanced problems | candy, n-meetings, railway platforms, etc.|
 | [`binary-trees-problems`](./binary-trees)| Binary trees standard problems including traversal, medium and hard problems | traversal, height, depth, construction|
 | [`binary-search-trees-problems`](./binary-search-trees)| BST problems include concept understanding, medium and subsequently hard problems| BST Iterator, two sum IV, lowest common ancestor |
+| [`graphs`](./graphs) | Understanding graph traversal and algorithms and their implementation in word problems | BFS, DFS, topo-sort, Djisktra's Algorithm, etc. |
 
 ---
 
