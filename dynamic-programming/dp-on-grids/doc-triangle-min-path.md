@@ -70,7 +70,7 @@ After processing the third row:
 ```text
        -
       - -
-     5  9 11
+     7  6 10
     4  1  8  3
 ```
 
@@ -78,27 +78,25 @@ After processing the second row:
 
 ```text
        -
-      8 13
-     5  9 11
+      9 10
+     7  6 10
     4  1  8  3
 ```
 
 After processing the first row:
 
 ```text
-       10
-      8 13
-     5  9 11
+       11
+      9 10
+     7  6 10
     4  1  8  3
 ```
 
-So the answer is **10**.
+So the answer is **11**.
 
 The minimum path is:
 
 `2 → 3 → 5 → 1 = 11`
-
-Correction: the actual minimum path is `2 → 3 → 5 → 1 = 11`, so the top DP value should be **11**, not 10. The second-row value at `(1,0)` is `3 + min(5,9) = 8`, and the top is `2 + min(8,13) = 10`; therefore the path represented by these values is `2 → 3 → 5 → 1 = 11` only if the third-row value is 6, not 5. The correct third-row value at `(2,0)` is `6 + min(4,1) = 7`, making the correct final answer **11**.
 
 ## Complexity
 
